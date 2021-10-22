@@ -9,7 +9,7 @@ jobs:
       - name: Checkout Code
         with:
           path: server
-          repository: 9swap/9Swap-backend
+          repository: 9swap/9Swap-server
           ref: master
         uses: actions/checkout@v2
 
@@ -42,7 +42,7 @@ jobs:
       - name: Checkout Code
         with:
           path: server
-          repository: 9swap/9Swap-backend
+          repository: 9swap/9Swap-server
           ref: master
         uses: actions/checkout@v2
 
