@@ -10,7 +10,7 @@ Atomic cross-chain swaps for N-Chain, Chia, and other Chia forks.
 **It's safer**: It's always safer to trust nobody rather than somebody. With 9Swap, you don't need to trust anyone - escrows, intermediaries, exchanges or trade partners - since your money is handled by smart contracts.
 
 ## How to use
-You're going to need a fully synced node for each currency involved in a swap except NCH, Chia, and XFX. Download the latest version of 9Swap from the [releases page of this project](https://github.com/9swap/9Swap/releaseshttps://github.com/Yakuhito/9Swap/releases
+You're going to need a fully synced node for each currency involved in a swap except NCH, Chia, and XFX. Download the latest version of 9Swap from the [releases page of this project](https://github.com/9swap/9Swap/releases)
 After conecting with a trade partner via the Discord bot, copy the given string to your clipboard. Open 9Swap, navigate to the 'Trades' tab, and click on the 'Add new trade' button. Click on 'Import' to load the trade from your clipboard. After clicking 'save', click on the trade to start it (the newest trade is usually at the bottom of the list).
 
 You can now follow the intructions on screen. You and your partner will make one transaction each for fork trades. After seeing 'Done! Check your wallet :)' or 'Done' and  using the wallet to confirm that you have successfully received your coins (you might have to wait a minute for the transaction to be included in a block), you can safely delete the trade.
