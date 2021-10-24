@@ -67,23 +67,23 @@ class __BodyState extends State<_Body> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              OutlinedButton.icon(
-                icon: const Icon(Icons.arrow_circle_up_outlined),
-                label: const Text("Export"),
-                onPressed: () async {
-                  final String exportString =
-                      BlocProvider.of<TradeCubit>(context).export();
-                  await Clipboard.setData(ClipboardData(text: exportString));
-                  ScaffoldMessenger.of(context)
-                    ..hideCurrentSnackBar()
-                    ..showSnackBar(
-                      const SnackBar(
-                          content: Text(
-                              "Trade data copied to clipboard - the export contains your SECRET, so DO NOT SHARE IT WITH ANYBODY!")),
-                    );
-                },
-              ),
-              const SizedBox(height: 8.0),
+              // OutlinedButton.icon(
+              //   icon: const Icon(Icons.arrow_circle_up_outlined),
+              //   label: const Text("Export"),
+              //   onPressed: () async {
+              //     final String exportString =
+              //         BlocProvider.of<TradeCubit>(context).export();
+              //     await Clipboard.setData(ClipboardData(text: exportString));
+              //     ScaffoldMessenger.of(context)
+              //       ..hideCurrentSnackBar()
+              //       ..showSnackBar(
+              //         const SnackBar(
+              //             content: Text(
+              //                 "Trade data copied to clipboard - the export contains your SECRET, so DO NOT SHARE IT WITH ANYBODY!")),
+              //       );
+              //   },
+              // ),
+              // const SizedBox(height: 8.0),
               OutlinedButton.icon(
                 icon: const Icon(Icons.arrow_circle_down_outlined),
                 label: const Text("Import"),
